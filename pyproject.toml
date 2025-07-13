@@ -1,0 +1,10 @@
+[project]
+name = "ai-agent-crypto-advisor"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.10"
+dependencies = [
+    "google-adk>=1.6.1",
+    "litellm>=1.74.2",
+    "requests>=2.32.4",
+]
