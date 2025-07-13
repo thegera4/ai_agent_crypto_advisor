@@ -77,25 +77,6 @@ def get_historical_data() -> dict:
         return {"status": "error", "error_message": error_detail}
 
 
-def get_analysis() -> dict:
-    """
-    Agent tool that analyzes the historical data of my cryptocurrencies and provides insights.
-    Returns:
-        dict: status and result or error msg.
-    """
-    pass
-
-
-def get_investment_strategy() -> dict:
-    """
-    Agent tool that provides an investment strategy based on the current conditions and historical data.
-
-    Returns:
-        dict: status and result or error msg.
-    """
-    pass
-
-
 root_agent = Agent(
     name="crypto_advisor_agent",
     model=get_deepseek_model(),
